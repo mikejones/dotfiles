@@ -1,0 +1,8 @@
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+
+[user]
+	name = Michael Jones
+	email = michael.daniel.jones@gmail.com
