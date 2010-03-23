@@ -6,6 +6,8 @@ if [ -f ~/.bash_aliases ]; then
   source ~/.bash_aliases
 fi
 
+PS1='\h:\W$(__git_ps1 "(%s)") \u\$ '
+
 export EDITOR="mate -w"
 
 export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home
