@@ -2,7 +2,6 @@ syntax on
 filetype on
 
 set nu " show line numbers
-
 " remove tabs for 2 spaces
 set autoindent
 set smartindent
@@ -21,11 +20,13 @@ filetype indent on " indent based on filetype
 set ruler " show ruler
 set autoread " auto read updates to file from outside vim
 
+set gfn=Inconsolata:h14
+
 " set default color scheme
-colorscheme ir_black 
+colorscheme chela_light
 
 " fuzzy finder mapping
-map <leader>f :FufFile<CR>
+map <leader>t :FufFile<CR>
  
  " renew finder cache shortcut
 map <leader>r :FufRenewCache<CR>
@@ -38,4 +39,8 @@ set smartcase
 nmap <D-/> ,c<Space>
 vmap <D-/> ,c<Space>
 imap <D-/> <C-O>,c<Space>
+
+
+" rebuild ctags
+map <silent> <LocalLeader>rt :!ctags -R --exclude=".git\|.svn\|log\|tmp\|db\|pkg" --extra=+f<CR>
 
