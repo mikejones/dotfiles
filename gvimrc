@@ -13,6 +13,9 @@ set smarttab
 set cindent
 
 set go-=T " hide the toolbar by default
+set winheight=100
+set winwidth=35
+
 syntax on " turn on syntax highlighting
 set nu " show line numbers
 filetype plugin on " figure out filetype automatically
@@ -23,13 +26,18 @@ set autoread " auto read updates to file from outside vim
 set gfn=Inconsolata:h14
 
 " set default color scheme
-colorscheme chela_light
+colorscheme macvim 
 
 " fuzzy finder mapping
 map <leader>t :FufFile<CR>
  
  " renew finder cache shortcut
 map <leader>r :FufRenewCache<CR>
+
+" renew finder cache shortcut
+map <leader>d :NERDTreeToggle<CR>
+map <leader>df :NERDTreeFind<CR>
+
 
 " ignore case in searches, except if you type a capital letter
 set ignorecase
