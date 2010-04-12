@@ -10,7 +10,10 @@ if [ -f ~/.resty/resty ]; then
   source ~/.resty/resty
 fi
 
-PS1='\h:\W$(__git_ps1 "(%s)") \u\$ '
+# colour terminal and add git branch name
+export CLICOLOR=1
+export LS_COLORS=exfxcxdxbxegedabagacad
+export PS1='\h:\W$(__git_ps1 "(%s)") \u\$ '
 
 export EDITOR="mate -w"
 

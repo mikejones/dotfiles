@@ -26,7 +26,7 @@ set autoread " auto read updates to file from outside vim
 set gfn=Inconsolata:h14
 
 " set default color scheme
-colorscheme macvim 
+colorscheme railscasts 
 
 " fuzzy finder mapping
 map <leader>t :FufFile<CR>
