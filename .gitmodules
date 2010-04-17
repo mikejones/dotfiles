@@ -1,3 +1,15 @@
 [submodule "resty"]
 	path = resty
 	url = git://github.com/micha/resty.git
+[submodule "vim/bundles/vim-ruby"]
+	path = vim/bundles/vim-ruby
+	url = git://github.com/vim-ruby/vim-ruby.git
+[submodule "vim/bundles/vim-haml"]
+	path = vim/bundles/vim-haml
+	url = git://github.com/tpope/vim-haml.git
+[submodule "vim/bundles/nerdtree"]
+	path = vim/bundles/nerdtree
+	url = git://github.com/scrooloose/nerdtree.git
+[submodule "vim/bundles/nerdcommenter"]
+	path = vim/bundles/nerdcommenter
+	url = git://github.com/scrooloose/nerdcommenter.git
