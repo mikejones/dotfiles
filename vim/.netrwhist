@@ -1,3 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/Users/michaeljones/Workspace/trafficbroker/report-service'
+let g:netrw_dirhist_2='/Users/michaeljones/Workspace/ruby/sinatra/taskboard'
+let g:netrw_dirhist_3='/Users/michaeljones/Workspace/websites/katco.eu'
+let g:netrw_dirhist_4='/Users/michaeljones/Workspace/html/katco.eu'
+let g:netrw_dirhist_5='/Users/michaeljones/Workspace/ruby/sinatra/taskboard'
+let g:netrw_dirhist_6='/Users/michaeljones/Workspace/trafficbroker/strategy-ask-pl'
+let g:netrw_dirhist_7='/Users/michaeljones/Downloads/nathansmith-960-Grid-System-81c927e'
+let g:netrw_dirhist_8='/Users/michaeljones'
+let g:netrw_dirhist_9='/Users/michaeljones/Workspace/trafficbroker/officeinthecity'
