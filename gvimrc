@@ -1,8 +1,5 @@
 call pathogen#runtime_append_all_bundles() 
 
-syntax on
-filetype on
-
 set nu " show line numbers
 " remove tabs for 2 spaces
 set autoindent
@@ -24,6 +21,8 @@ filetype plugin on " figure out filetype automatically
 filetype indent on " indent based on filetype
 set ruler " show ruler
 set autoread " auto read updates to file from outside vim
+
+set ofu=syntaxcomplete#Complete
 
 set gfn=Inconsolata:h14
 
@@ -53,4 +52,9 @@ imap <D-/> <C-O>,c<Space>
 
 " rebuild ctags
 map <silent> <LocalLeader>rt :!ctags -R --exclude=".git\|.svn\|log\|tmp\|db\|pkg" --extra=+f<CR>
+
+" clojure stuff, needs to be rebuild for each of the machines installed on
+let vimclojure#NailgunClient = "/Users/michaeljones/src/vimclojure/ng"
+let clj_want_gorilla = 1
+
 
