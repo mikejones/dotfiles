@@ -1,3 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
-let g:netrw_dirhist_1='/Users/michaeljones/Workspace/ruby/sinatra/taskboard'
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Users/michaeljones/Workspace/ruby/sinatra/we-workout-lite'
+let g:netrw_dirhist_2='/Users/michaeljones/Workspace/trafficbroker/cardwall'
+let g:netrw_dirhist_3='/Users/michaeljones/Workspace/ruby/sinatra/taskboard'
+let g:netrw_dirhist_4='/Users/michaeljones/Workspace/trafficbroker/veew'
+let g:netrw_dirhist_5='/Users/michaeljones/Workspace/ruby/sinatra/taskboard'
+let g:netrw_dirhist_6='/Users/michaeljones/Workspace/trafficbroker/veew'
+let g:netrw_dirhist_7='/Users/michaeljones/Workspace/ruby/sinatra/taskboard'
