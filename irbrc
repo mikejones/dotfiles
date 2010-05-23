@@ -3,6 +3,7 @@ require 'irb/completion'
 require 'irb/ext/save-history'
 require 'pp'
 require 'wirble'
+require 'interactive_editor'
 
 begin
   Wirble.init

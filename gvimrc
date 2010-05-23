@@ -1,5 +1,22 @@
 call pathogen#runtime_append_all_bundles() 
 
+if has("autocmd")
+  " Enable filetype detection
+  filetype plugin on " figure out filetype automatically
+  filetype indent on " indent based on filetype
+ 
+  " Restore cursor position
+  autocmd BufReadPost *
+    \ if line("'\"") > 1 && line("'\"") <= line("$") |
+    \   exe "normal! g`\"" |
+    \ endif
+endif
+if &t_Co > 2 || has("gui_running")
+  " Enable syntax highlighting
+  syntax on
+endif
+
+
 set nu " show line numbers
 " remove tabs for 2 spaces
 set autoindent
@@ -15,10 +32,7 @@ set go-=T " hide the toolbar by default
 set winheight=100
 set winwidth=35
 
-syntax on " turn on syntax highlighting
 set nu " show line numbers
-filetype plugin on " figure out filetype automatically
-filetype indent on " indent based on filetype
 set ruler " show ruler
 set autoread " auto read updates to file from outside vim
 
