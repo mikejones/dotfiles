@@ -71,4 +71,16 @@ map <silent> <LocalLeader>rt :!ctags -R --exclude=".git\|.svn\|log\|tmp\|db\|pkg
 let vimclojure#NailgunClient = "/Users/michaeljones/src/vimclojure/ng"
 let clj_want_gorilla = 1
 
+" Execute open rspec buffer
+function! RunSpec(args)
+ let spec = "spec"
+ let cmd = ":! " . spec . " % -cfn " . a:args
+ execute cmd
+endfunction
+ 
+" Mappings
+" run one rspec example or describe block based on cursor position
+map !s :call RunSpec("-l " . <C-r>=line('.')<CR>)
+" run full rspec file
+map !S :call RunSpec("")
 
