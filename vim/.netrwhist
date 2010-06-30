@@ -3,5 +3,5 @@ let g:netrw_dirhist_cnt =5
 let g:netrw_dirhist_1='/Users/michaeljones/Workspace/uswitch/energy'
 let g:netrw_dirhist_2='/Users/michaeljones/Workspace/dotfiles'
 let g:netrw_dirhist_3='/Users/michaeljones/Workspace/uswitch/energy/comparison'
-let g:netrw_dirhist_4='/Users/michaeljones/Workspace/uswitch/energy/tariff'
-let g:netrw_dirhist_5='/Users/michaeljones/Workspace/trafficbroker/heating-cover'
+let g:netrw_dirhist_4='/Users/michaeljones/Workspace/html/michaeljon.es'
+let g:netrw_dirhist_5='/Users/michaeljones/Workspace/uswitch/energy'
