@@ -22,8 +22,8 @@ export HADOOP_HOME=/Users/michaeljones/src/hadoop-0.20.1
  
 export PATH=$HADOOP_HOME/bin:$PATH
 
-# add mysql & ports to path
-export PATH="/usr/local/bin:/usr/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:$PATH"
+# add mysql & mongo to path
+export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/mongodb/bin:/usr/local/mysql/bin:$PATH"
 
 function authme { 
 ssh $1 'cat >>~/.ssh/authorized_keys' <~/.ssh/id_dsa.pub 

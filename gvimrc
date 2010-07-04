@@ -41,7 +41,7 @@ set ofu=syntaxcomplete#Complete
 set gfn=Inconsolata:h14
 
 " set default color scheme
-colorscheme railscasts 
+colorscheme louver
 
 " fuzzy finder mapping
 map <leader>t :FufFile<CR>
