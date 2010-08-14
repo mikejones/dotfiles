@@ -22,3 +22,4 @@
 [submodule "vim/bundle/cocoa.vim"]
 	path = vim/bundle/cocoa.vim
 	url = http://github.com/msanders/cocoa.vim.git
+
