@@ -44,3 +44,4 @@ complete -F _mategem -o dirnames mategem
 
 if [[ -s /Users/michaeljones/.rvm/scripts/rvm ]] ; then source /Users/michaeljones/.rvm/scripts/rvm ; fi
 
+
