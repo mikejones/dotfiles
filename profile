@@ -10,6 +10,8 @@ if [ -f ~/.resty/resty ]; then
   source ~/.resty/resty
 fi
 
+export GEM_EDITOR='mate'
+
 # colour terminal and add git branch name
 export CLICOLOR=1
 export LS_COLORS=exfxcxdxbxegedabagacad
