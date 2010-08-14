@@ -22,6 +22,3 @@
 [submodule "vim/bundle/cocoa.vim"]
 	path = vim/bundle/cocoa.vim
 	url = http://github.com/msanders/cocoa.vim.git
-[submodule "emacs.d"]
-	path = emacs.d
-	url = http://github.com/technomancy/emacs-starter-kit.git
