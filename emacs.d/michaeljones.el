@@ -1,9 +1,16 @@
-(add-to-list 'load-path
-             "~/.emacs.d/plugins/yasnippet-0.6.1c")
+;; dir to store all extra extensions
+(setq plugins-dir (concat dotfiles-dir "/plugins"))
+
+;; yas snippet
+(add-to-list 'load-path (concat plugins-dir "/yasnippet-0.6.1c"))
 (require 'yasnippet) ;; not yasnippet-bundle
 (yas/initialize)
-(yas/load-directory "~/.emacs.d/plugins/yasnippet-0.6.1c/snippets")
+(yas/load-directory (concat plugins-dir "/yasnippet-0.6.1c/snippets"))
 
+;; rvm.el
+(add-to-list 'load-path (concat plugins-dir "/rvm.el"))
+(require 'rvm)
+(rvm-use-default) ;; use rvm’s default ruby for the current Emacs session
 
 ;; use inconsolata in a nice small font
 (set-face-attribute 'default nil
@@ -14,9 +21,4 @@
 (setq-default tab-width 2)
 (setq-default indent-tabs-mode nil)
 
-;; fix so that command is meta key and alt is alt
-(setq mac-option-key-is-meta nil)
-(setq mac-command-key-is-meta t)
-(setq mac-command-modifier 'meta)
-(setq mac-option-modifier nil)
 

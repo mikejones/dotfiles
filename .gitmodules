@@ -23,3 +23,6 @@
 	path = vim/bundle/cocoa.vim
 	url = http://github.com/msanders/cocoa.vim.git
 
+[submodule "emacs.d/plugins/rvm.el"]
+	path = emacs.d/plugins/rvm.el
+	url = http://github.com/senny/rvm.el.git
