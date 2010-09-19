@@ -6,3 +6,5 @@
 [user]
 	name = Michael Jones
 	email = michael.daniel.jones@gmail.com
+[alias]
+	st = status -sb

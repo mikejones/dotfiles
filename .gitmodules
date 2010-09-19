@@ -22,7 +22,9 @@
 [submodule "vim/bundle/cocoa.vim"]
 	path = vim/bundle/cocoa.vim
 	url = http://github.com/msanders/cocoa.vim.git
-
 [submodule "emacs.d/plugins/rvm.el"]
-	path = emacs.d/plugins/rvm.el
-	url = http://github.com/senny/rvm.el.git
+  path = emacs.d/plugins/rvm.el
+  url = http://github.com/senny/rvm.el.git
+[submodule "emacs.d/plugins/textmate.el"]
+	path = emacs.d/plugins/textmate.el
+	url = http://github.com/defunkt/textmate.el.git

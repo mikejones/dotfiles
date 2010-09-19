@@ -1,0 +1,4 @@
+set mainfont  {Inconsolata 12}
+set textfont  {Inconsolata 12}
+set uifont    {Inconsolata 12}
+

@@ -17,6 +17,11 @@
                     :family "inconsolata"
                     :height 130)
 
+;; textmate plugin
+(add-to-list 'load-path  (concat plugins-dir "/textmate.el"))
+(require 'textmate)
+(textmate-mode)
+
 ;; tabs are 2 spaces
 (setq-default tab-width 2)
 (setq-default indent-tabs-mode nil)
