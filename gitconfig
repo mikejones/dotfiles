@@ -8,3 +8,5 @@
 	email = michael.daniel.jones@gmail.com
 [alias]
 	st = status -sb
+[github]
+	user = mikejones

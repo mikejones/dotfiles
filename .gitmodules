@@ -28,3 +28,6 @@
 [submodule "emacs.d/plugins/textmate.el"]
 	path = emacs.d/plugins/textmate.el
 	url = http://github.com/defunkt/textmate.el.git
+[submodule "vim/bundle/ack-vim"]
+	path = vim/bundle/ack-vim
+	url = http://github.com/mileszs/ack.vim.git

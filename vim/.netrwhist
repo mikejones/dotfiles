@@ -1,6 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/Users/michaeljones/Workspace/uswitch/calculator'
-let g:netrw_dirhist_2='/Users/michaeljones/Workspace/uswitch/energy-comparison'
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Users/michaeljones/Workspace/sicp'
+let g:netrw_dirhist_2='/Users/michaeljones/Workspace/clojure/project-euler'
 let g:netrw_dirhist_3='/Users/michaeljones/Workspace/uswitch/energy-annual-statements'
-let g:netrw_dirhist_4='/Users/michaeljones/Workspace/dotfiles'
+let g:netrw_dirhist_4='/Users/michaeljones/Workspace/uswitch/energy-layout'
+let g:netrw_dirhist_5='/Users/michaeljones/Workspace/uswitch/energy-comparison'
+let g:netrw_dirhist_6='/Users/michaeljones/Workspace/uswitch/energy-comparison-client'
+let g:netrw_dirhist_7='/Users/michaeljones/Workspace/uswitch/energy-layout'
