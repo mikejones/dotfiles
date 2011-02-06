@@ -16,6 +16,7 @@ if &t_Co > 2 || has("gui_running")
   syntax on
 endif
 
+set t_Co=256
 
 set nu " show line numbers
 " remove tabs for 2 spaces
@@ -46,7 +47,7 @@ colorscheme louver
 " fuzzy finder mapping
 map <leader>t :FufFile<CR>
  
- " renew finder cache shortcut
+" renew finder cache shortcut
 map <leader>r :FufRenewCache<CR>
 
 " renew finder cache shortcut
