@@ -18,6 +18,8 @@ export CLICOLOR=1
 export LS_COLORS=exfxcxdxbxegedabagacad
 export PS1='\h:\W$(__git_ps1 "(%s)") \u\$ '
 
+export PATH=$PATH:/usr/local/ses-developer-tools/bin
+export AWS_CREDENTIALS_FILE=aws-credentials
 
 export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home
 
