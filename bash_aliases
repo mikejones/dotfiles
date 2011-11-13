@@ -17,3 +17,6 @@ alias hp="hg push"
 alias hc="hg commit"
 
 alias ll="ls -alc"
+
+alias emacs="/usr/local/Cellar/emacs/HEAD/Emacs.app/Contents/MacOS/Emacs -nw"
+

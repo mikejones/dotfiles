@@ -18,8 +18,8 @@ export CLICOLOR=1
 export LS_COLORS=exfxcxdxbxegedabagacad
 export PS1='\h:\W$(__git_ps1 "(%s)") \u\$ '
 
-export PATH=$PATH:/usr/local/ses-developer-tools/bin
-export AWS_CREDENTIALS_FILE=aws-credentials
+export CLOJURESCRIPT_HOME=/usr/local/clojurescript
+export PATH=$PATH:$CLOJURESCRIPT_HOME/bin
 
 export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home
 
@@ -29,4 +29,5 @@ ssh $1 'cat >>~/.ssh/authorized_keys' <~/.ssh/id_dsa.pub
 
 if [[ -s /Users/michaeljones/.rvm/scripts/rvm ]] ; then source /Users/michaeljones/.rvm/scripts/rvm ; fi
 
+export PATH="$HOME/.rbenv/bin:$PATH"
 
