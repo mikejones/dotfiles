@@ -74,7 +74,7 @@
   (eval-after-load 'color-theme
     (progn
       (require 'color-theme-solarized)
-      (color-theme-solarized-light))))
+      (color-theme-solarized-dark))))
 
 ;; KEYBINDINGS
 ;;--------------------------------------------------
@@ -99,3 +99,5 @@
 ;;(global-set-key "\C-c\C-k" 'kill-region)
 
 (global-set-key [f5] 'call-last-kbd-macro)
+(fset 'insertPound "#")
+(global-set-key (kbd "M-3") 'insertPound)
