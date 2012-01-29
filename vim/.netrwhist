@@ -1,8 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/Users/michaeljones/Downloads/ireland/gerard_cahill_technical_test'
 let g:netrw_dirhist_2='/Users/michaeljones/Workspace/dotfiles/emacs.d/elpa/elisp-slime-nav-0.2'
 let g:netrw_dirhist_3='/Library/Ruby/Gems/1.8/gems/sequel-3.17.0'
 let g:netrw_dirhist_4='/Users/michaeljones/Workspace/uswitch/energy-switch-management/.git'
 let g:netrw_dirhist_5='/Users/michaeljones/Workspace/dotfiles/emacs.d'
 let g:netrw_dirhist_6='/Users/michaeljones/Workspace/dotfiles'
+let g:netrw_dirhist_7='/Users/michaeljones/Workspace/uswitch/energy-batchfiles/migrations'
+let g:netrw_dirhist_8='/Users/michaeljones/Workspace/dotfiles'

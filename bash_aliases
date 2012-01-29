@@ -20,3 +20,4 @@ alias ll="ls -alc"
 
 alias emacs="/usr/local/Cellar/emacs/HEAD/Emacs.app/Contents/MacOS/Emacs -nw"
 
+alias b='bundle exec'

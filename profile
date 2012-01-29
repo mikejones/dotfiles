@@ -27,7 +27,5 @@ function authme {
 ssh $1 'cat >>~/.ssh/authorized_keys' <~/.ssh/id_dsa.pub 
 }
 
-if [[ -s /Users/michaeljones/.rvm/scripts/rvm ]] ; then source /Users/michaeljones/.rvm/scripts/rvm ; fi
-
 export PATH="$HOME/.rbenv/bin:$PATH"
-
+eval "$(rbenv init -)"
