@@ -41,11 +41,14 @@ set ofu=syntaxcomplete#Complete
 
 set gfn=Inconsolata:h14
 
-" set default color scheme
-" colorscheme louver
-syntax enable
+
 set background=dark
+" solarized options 
+let g:solarized_visibility = "high"
+let g:solarized_contrast = "high"
+let g:solarized_termcolors=16
 colorscheme solarized
+
 
 " fuzzy finder mapping
 map <leader>t :FufFile<CR>

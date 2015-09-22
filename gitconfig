@@ -12,3 +12,9 @@
 	user = mikejones
 [format]
   pretty = %C(yellow)%h%Creset %s %C(red)(%an, %cr)%Creset
+[gui]
+	recentrepo = /Users/michaeljones/Workspace/uswitch/energy-insight
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
