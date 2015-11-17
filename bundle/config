@@ -1,2 +1,5 @@
 ---
 BUNDLE_BUILD__LIBV8: "--with-system-v8"
+LDFLAGS:  "-L/usr/local/opt/readline/lib"
+CPPFLAGS: "-I/usr/local/opt/readline/include"
+

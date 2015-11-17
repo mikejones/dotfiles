@@ -27,5 +27,10 @@ function authme {
 ssh $1 'cat >>~/.ssh/authorized_keys' <~/.ssh/id_dsa.pub 
 }
 
+# ruby version manager
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
+
+# node version managmer
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
